@@ -1,0 +1,14 @@
+.bg-button-linear {
+    background-image: linear-gradient(to right, #EF4523 0%, #F89C1C 51%, #F89C1C 100%);
+    color: #fff;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 4% !important;
+    padding: 8px 20px;
+    transition: 0.3s !important;
+    background-size: 200% auto;
+}
+.bg-button-linear:hover {
+    background-position: right center !important;
+    background-image: linear-gradient(to right, #F89C1C 0%, #F89C1C 51%, #EF4523 100%);
+}
